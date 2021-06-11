@@ -41,3 +41,29 @@ code {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.note.new {
+  background-color: coral;
+}
+
+textarea {
+  border: none;
+  resize: none;
+  background-color: coral;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.save {
+  background-color: gray;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+.save:hover {
+  background-color: green;
+  cursor: pointer;
+}
